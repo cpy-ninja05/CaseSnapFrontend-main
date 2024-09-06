@@ -1,0 +1,60 @@
+
+  /* ABOUT US */
+
+.desktop .about-us-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 100px auto; 
+  max-width: 1200px; 
+  padding: 20px;
+}
+
+
+.desktop .about-us-image {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  margin-right: 50px; 
+}
+/* Text container */
+.desktop .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+
+.desktop .about-title {
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  color: #444444;
+}
+
+
+.desktop .line {
+  height: 2px;
+  width: 60px;
+  background-color: #444444;
+  margin-top: 8px;
+}
+
+
+.desktop .subtitle {
+  font-family: "Playfair Display-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  color: #444444;
+  margin-top: 10px;
+}
+
+.desktop .description {
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+}
+
