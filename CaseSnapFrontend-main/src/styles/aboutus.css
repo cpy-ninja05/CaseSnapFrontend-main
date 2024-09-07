@@ -14,9 +14,11 @@
 
 .desktop .about-us-image {
   height: 400px;
-  width: 400px;
+  width: 480px;
   object-fit: cover;
   margin-right: 50px; 
+  background: url(../assets/about-us.png) no-repeat center center/cover;
+  border: 10px solid rgb(240, 212, 173);
 }
 /* Text container */
 .desktop .text-container {

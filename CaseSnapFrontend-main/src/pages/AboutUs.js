@@ -6,7 +6,7 @@ export const AboutUs = () => {
   return (
     <div className="desktop">
       <div className="about-us-section">
-        <img className="about-us-image" alt="About Us" src="../assets/about-us.png" />
+        <div className="about-us-image"></div>
         <div className="text-container">
           <div className="title-wrapper">
             <div className="about-title">About Us</div>
